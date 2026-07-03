@@ -1,7 +1,11 @@
 # How to set up an auto feeder
+Validaded with macOS Sequoia 15.6.
 
 ### Prerequisite
 - Claude code CLI at your local machine
+  * `curl -fsSL https://claude.ai/install.sh | bash`
+  * Authenticate 
+
 
 ### Step1. Prepare a prompt script
 e.g.  See [summarize.sh](./summarize.sh)
