@@ -4,6 +4,8 @@ set -euo pipefail
 DATE=$(date +%Y-%m-%d)
 
 MODEL="claude-opus-4-6"
+#MODEL="claude-sonnet-4-6"
+
 REPO="absolute path to the local git repo"  #FIXME
 
 # Loop over sub-directories (e.g. hep-ex, quant-ph)
