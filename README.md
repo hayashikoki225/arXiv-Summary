@@ -4,6 +4,7 @@
 - Claude code CLI at your local machine
 
 ### Step1. Prepare a prompt script
+e.g. `~/scripts/arxiv_summary.sh`
 
 ```
 #!/bin/bash
@@ -50,7 +51,7 @@ cd -
 echo "Done!"
 ```
 
-### Step2: Set up a crontab
+### Step2: Set up a crontab (e.g. macOS)
 e.g. Run 9pm everyday, output stdout/stderr only for the latest update:
 ```
 crontab -e
