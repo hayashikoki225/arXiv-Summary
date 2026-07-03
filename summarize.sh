@@ -17,6 +17,7 @@ Go through https://arxiv.org/list/${CATEGORY}/new, pick up upto 10 papers to sum
 Please reference the format of ${CATEGORY}/example.md in this repo.
 
 I am mostly expert in LHC/SUSY/dark matter etc. so feel free to do aggressively for hep-ex but more introduction is appreciated for other categories.
+For hep-ex, focus particularly on novel techniques/ideas, and dark matter/high frequency gravitational wave seaches using cavity/quantum sensors.
 For quant-ph, I'm particularly interested in the hardware development and sensing application.
 " > "${OUTPUT}"
     
