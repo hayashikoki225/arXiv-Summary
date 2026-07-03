@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euo pipefail
+set -euo pipefail  # Force stop in case of errors
 
 DATE=$(date +%Y-%m-%d)
 
@@ -8,7 +8,7 @@ MODEL="claude-opus-4-6"
 
 # Loop over sub-directories (e.g. hep-ex, quant-ph)
 for CATEGORY in hep-ex quant-ph; do
-    OUTPUT=${REPO}/${CATEGORY}/${DATE}.md    
+    OUTPUT=${CATEGORY}/${DATE}.md    
 
     echo "Fetching ${CATEGORY}..."
     claude --model ${MODEL} --verbose --print "
