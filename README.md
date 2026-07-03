@@ -7,8 +7,10 @@ Validaded with macOS Sequoia 15.6.
 - ChatGPT Codex: `curl -fsSL https://chatgpt.com/codex/install.sh | bash`, then launch and authenticate.
 
 ### Step1. Prepare a prompt script and example
-- Specify the backend and model to use, customize the PROMPT in [summarize.sh](./summarize.sh) to fit to your interests, detailness, expertise etc.
-- Edit the [hep-ex,quant-ph]/example.md for format preference (you may also just describe in the PROMPT).
+- Specify the backend and model to use ([summarize.sh](./summarize.sh))
+- Customize the PROMPT to fit to your interests, detailness, expertise etc. ([summarize.sh](./summarize.sh))
+- Edit the example files for format preference: [hep-ex,quant-ph]/example.md  
+  You may also just describe in the PROMPT).
 
 ### Step2: Set up a crontab
 e.g. Run 9pm everyday, output stdout/stderr only for the latest update:
