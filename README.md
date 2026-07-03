@@ -2,15 +2,17 @@
 Validaded with macOS Sequoia 15.6.
 
 ### Prerequisite
-**Claude code CLI** or **ChatGPT Codex CLI** installed in your local machine
-- Claude code: `curl -fsSL https://claude.ai/install.sh | bash`, then launch and authenticate.
-- ChatGPT Codex: `curl -fsSL https://chatgpt.com/codex/install.sh | bash`, then launch and authenticate.
+- **Claude code CLI** or **ChatGPT Codex CLI** installed in your local machine
+  - Claude code: `curl -fsSL https://claude.ai/install.sh | bash`, then launch and authenticate.
+  - ChatGPT Codex: `curl -fsSL https://chatgpt.com/codex/install.sh | bash`, then launch and authenticate.
+- Clone this repo to your local machine
 
 ### Step1. Prepare a prompt script and example
 - Specify the backend and model to use ([summarize.sh](./summarize.sh))
 - Customize the PROMPT to fit to your interests, detailness, expertise etc. ([summarize.sh](./summarize.sh))
 - Edit the example files for format preference: [hep-ex,quant-ph]/example.md  
   You may also just describe in the prompt sentences in the script.
+- Manual launch: go to the repo in the command line and do `./summarize.sh`.
 
 ### Step2: Set up a crontab
 e.g. Run 9pm everyday, output stdout/stderr only for the latest update:
