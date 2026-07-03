@@ -2,7 +2,7 @@
 Validaded with macOS Sequoia 15.6.
 
 ### Prerequisite
-- Either **Claude code CLI** or **ChatGPT Codex CLI** installed in your local machine
+**Claude code CLI** or **ChatGPT Codex CLI** installed in your local machine
 - Claude code: `curl -fsSL https://claude.ai/install.sh | bash`, then launch and authenticate.
 - ChatGPT Codex: `curl -fsSL https://chatgpt.com/codex/install.sh | bash`, then launch and authenticate.
 
