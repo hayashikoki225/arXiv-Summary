@@ -4,7 +4,7 @@ Validaded with macOS Sequoia 15.6.
 ### Prerequisite
 - Claude code CLI at your local machine
   * `curl -fsSL https://claude.ai/install.sh | bash`
-  * Authenticate 
+  * Launch with `claude` command and authenticate.
 
 
 ### Step1. Prepare a prompt script
