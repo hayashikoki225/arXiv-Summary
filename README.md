@@ -10,7 +10,7 @@ Validaded with macOS Sequoia 15.6.
 - Specify the backend and model to use, customize the PROMPT in [summarize.sh](./summarize.sh) to fit to your interests, detailness, expertise etc.
 - Edit the [hep-ex,quant-ph]/example.md for format preference (you may also just describe in the PROMPT).
 
-### Step2: Set up a crontab (e.g. macOS)
+### Step2: Set up a crontab
 e.g. Run 9pm everyday, output stdout/stderr only for the latest update:
 ```
 crontab -e
