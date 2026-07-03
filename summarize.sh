@@ -15,7 +15,7 @@ for CATEGORY in hep-ex quant-ph; do
     echo "Fetching ${CATEGORY}..."
     claude --model ${MODEL} --verbose --print "
 Please generate a summary of new arXiv papers under the ${CATEGORY} category in Japanese. 
-Pick up up to 10 papers from https://arxiv.org/list/${CATEGORY}/new and summarize each in the follwoing format:
+Go through https://arxiv.org/list/${CATEGORY}/new, pick up upto 10 papers and summarize each in the follwoing format:
 
 # arXiv ${CATEGORY} Daily Summary - ${DATE}
 
