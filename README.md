@@ -17,7 +17,7 @@ REPO="absolute path to the local git repo"  #FIXME
 for CATEGORY in hep-ex quant-ph; do
     OUTPUT=${REPO}/${CATEGORY}/${DATE}.md    
     echo "Fetching ${CATEGORY}..."
-    claude --print "
+    claude --model claude-opus-4-6　--print "
 Generate a summary of new arXiv papers under the ${CATEGORY} category:
 https://arxiv.org/list/${CATEGORY}/new
 in Japanese. I am mostly expert of LHC/SUSY/dark matter etc. so feel free to aggressively comaptify but more introduction is welcomed in summarying quant-ph papers.
