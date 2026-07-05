@@ -4,10 +4,10 @@ set -euo pipefail
 DATE=$(date +%Y-%m-%d)
 
 # AI backend selection: "claude" or "codex"
-BACKEND="codex" #"claude"
+BACKEND="claude" # "codex"
 
 # Model selection (claude only, codex will auto-select the model)
-CLAUDE_MODEL="claude-opus-4-6" # "claude-opus-4-8, claude-sonnet-4-8" etc.
+CLAUDE_MODEL="claude-opus-4-8" # "claude-opus-4-8, claude-sonnet-4-8" etc.
 
 # Function to call AI
 call_ai() {
@@ -45,8 +45,8 @@ a            --sandbox workspace-write \
     fi
 }
 
-#for CATEGORY in hep-ex quant-ph; do
-for CATEGORY in hep-ex; do
+for CATEGORY in hep-ex quant-ph; do
+#for CATEGORY in hep-ex; do
     OUTPUT=${CATEGORY}/${DATE}.md
     echo "Fetching ${CATEGORY} with ${BACKEND}..."
     
@@ -64,7 +64,7 @@ done
 
 
 # Push to git 
-#git add .
-#git commit -m "arXiv daily summary ${DATE} [${BACKEND}]"
-#git push
-#echo "Done!"
+git add .
+git commit -m "arXiv daily summary ${DATE} [${BACKEND}]"
+git push
+echo "Done!"
