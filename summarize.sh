@@ -32,7 +32,7 @@ call_ai() {
         if ! codex exec \
             -c tools.web_search=true \
             --cd "$(pwd)" \
-a            --sandbox workspace-write \
+            --sandbox workspace-write \
             --output-last-message "${output}" \
             "${prompt}" > "${log_file}" 2>&1; then
             echo "Codex failed. Log: ${log_file}" >&2

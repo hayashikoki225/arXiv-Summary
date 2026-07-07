@@ -18,6 +18,6 @@ Validaded with macOS Sequoia 15.6.
 e.g. Run 9pm everyday, output stdout/stderr only for the latest update:
 ```
 crontab -e
-0 21 * * * ABSPATH_TO_REPO/summarize.sh > SOMEWHERE/summarize.log 2>&1
+0 21 * * * (cd ABSPATH_TO_REPO/; ./summarize.sh > crontab.log 2>&1)
 ```
-Change `ABSPATH_TO_REPO` and `SOMEWHERE` to something appropriate.
+Change `ABSPATH_TO_REPO` to something appropriate.
