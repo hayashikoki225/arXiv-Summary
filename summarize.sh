@@ -63,7 +63,10 @@ for CATEGORY in hep-ex; do
     Go through https://arxiv.org/list/${CATEGORY}/new, pick up upto 10 papers to summarize.
     Please reference the format of ${CATEGORY}/example.md in this repo.
     I am mostly expert in Neutrino. so feel free to do aggressively for hep-ex but more introduction is appreciated for other categories.
-    For hep-ex, focus particularly on novel techniques/ideas, and neutrino experiment."
+    For hep-ex, focus particularly on novel techniques/ideas, and neutrino experiment.
+
+    The content of ${OUTPUT} must be the summary itself, not a completion report.
+    Do not write only a message such as 'Generated the summary'."
     
     call_ai "${PROMPT}" "${OUTPUT}"
     echo "Saved: ${OUTPUT}"
