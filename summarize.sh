@@ -65,8 +65,14 @@ for CATEGORY in hep-ex; do
     I am mostly expert in Neutrino. so feel free to do aggressively for hep-ex but more introduction is appreciated for other categories.
     For hep-ex, focus particularly on novel techniques/ideas, and neutrino experiment.
 
-    The content of ${OUTPUT} must be the summary itself, not a completion report.
-    Do not write only a message such as 'Generated the summary'."
+    IMPORTANT:
+    Do not edit, create, or write any files directly.
+    Do not write to ${OUTPUT} yourself.
+    Return the final Japanese summary as your final answer only.
+    Your final answer must be the markdown content of the summary itself.
+    Do not include any completion report.
+    Do not say that you generated, saved, wrote, or verified a file.
+    Do not mention ${OUTPUT} or any file path."
     
     call_ai "${PROMPT}" "${OUTPUT}"
     echo "Saved: ${OUTPUT}"
