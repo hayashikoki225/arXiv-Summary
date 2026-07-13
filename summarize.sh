@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
+export PATH="/Users/hayashikoki/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+
 DATE=$(date +%Y-%m-%d)
 
 # Skip on weekends: arXiv does not announce new papers on Sat/Sun.
