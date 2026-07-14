@@ -84,5 +84,5 @@ done
 # Push to git 
 git add .
 git commit -m "arXiv daily summary ${DATE} [${BACKEND}]"
-git push
+GIT_SSH_COMMAND="ssh -i /Users/hayashikoki/.ssh/id_github_cron -o IdentitiesOnly=yes -o BatchMode=yes" git push
 echo "Done!"
