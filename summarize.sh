@@ -64,8 +64,11 @@ for CATEGORY in hep-ex; do
     Please generate a summary of new arXiv papers under the ${CATEGORY} category in Japanese.
     Go through https://arxiv.org/list/${CATEGORY}/new, pick up upto 10 papers to summarize.
     Please reference the format of ${CATEGORY}/example.md in this repo.
-    I am mostly expert in Neutrino. so feel free to do aggressively for hep-ex but more introduction is appreciated for other categories.
+    Please arrange them in order of interest.
+    I am mostly expert in Neutrino. so feel free to do aggressively for neutrino but more introduction is appreciated for other physics target.
     For hep-ex, focus particularly on novel techniques/ideas, and neutrino experiment.
+    Please cosider the information below:
+    - I am interested in beyond standard model such as GUT, Drak matter, SUSY, and Majorana neutrino.
 
     IMPORTANT:
     Do not edit, create, or write any files directly.
