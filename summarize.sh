@@ -69,6 +69,7 @@ for CATEGORY in hep-ex; do
     For hep-ex, focus particularly on novel techniques/ideas, and neutrino experiment.
     Please cosider the information below:
     - I am interested in beyond standard model such as GUT, Drak matter, SUSY, and Majorana neutrino.
+    - If you can identify whether the paper is under peer review, accepted, or published, please specify this.
 
     IMPORTANT:
     Do not edit, create, or write any files directly.
